@@ -2,6 +2,7 @@
 An selenium application to auto report an account based on a discord bot made in python.
 
 ## I will not help you setup it
+## You need "images" folder or the bot will not work.
 
 Example for using multiple accounts:
 ```python
