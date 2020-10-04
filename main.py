@@ -43,7 +43,7 @@ async def ban_account(ctx, account_to_ban, account_to_use, tentativas):
 
     try:
         if tentativas == 5:
-            ctx.send('The bot couldnt finish the report within 5 retries, try again.')
+            await ctx.send('The bot couldnt finish the report within 5 retries, try again.')
             return
 
         account_to_use[2].get('https://www.instagram.com/' + account_to_ban)
